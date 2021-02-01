@@ -7,7 +7,7 @@
 
 Object detection is a computer technology related to computer vision and image processing. It allows us to identify and locate objects in an image or video (we can also use it on live stream). Object detection can be used to count objects in a scene and determine and track their precise locations, all while accurately labeling them which is very useful for many security systems also, it has various real-time applications such as surveillance, robotics, and biometrics.
 
-![](RackMultipart20210201-4-1mf5ufr_html_1cddcd886e9847ac.png)
+![](people.png)
 
 Boundary boxes in object detection
 
@@ -20,7 +20,7 @@ Boundary boxes in object detection
 
 Image Classification concerns with type or class of the object in the given image. Output for this algorithm is a class label for inputphotographs
 
-![](RackMultipart20210201-4-1mf5ufr_html_7330c77716d6cbb4.png)
+![](cat.png)
 
 **Object localization:**
 
@@ -35,7 +35,7 @@ Object detection is a computer vision technique to identify various objects from
 
 Object detection outputs class labels with proper boundary boxes for objects in the image.
 
-![](RackMultipart20210201-4-1mf5ufr_html_3fe77e1eec82f613.png)
+![](cat_dog.png)
 
 ### Various algorithms can be used for Object Detection using Deep Learning some of them are:
 
@@ -59,7 +59,7 @@ Yolov2 introduced many new features over version 1. Such as batch normalization,
 
 YOLOv3 is a real-time, single-stage object detection model that builds on YOLOv2 with several improvements. Improvements include the use of a new backbone network, Darknet-53 that utilizes residual connections, or in the words of the author, &quot;those newfangled residual network stuff&quot;, as well as some improvements to the bounding box prediction step, and use of three different scales from which to extract features (similar to an FPN).
 
-![](RackMultipart20210201-4-1mf5ufr_html_35b919f161c01b04.png)
+![](yolov3.png)
 
 YOLOv3 Structure
 
@@ -81,7 +81,7 @@ Faster R-CNN consists of Region Proposal Network (RPN) and Fast-RCNN. Anchor box
 
 Faster R-CNN is 10 times faster than Fast R-CNN for the same accuracy output.
 
-![](RackMultipart20210201-4-1mf5ufr_html_706abaa4a1ae29d4.png)
+![](rcnn.png)
 
 Object detection with R-CNN
 
@@ -105,7 +105,7 @@ In this project, we will implement a Deep Learning based Object Detection System
 
 **Following are the primary concepts of the YOLOv3 algorithm:**
 
-![](RackMultipart20210201-4-1mf5ufr_html_8360507efdbf1d2.png)
+![](yolov3_structure.png)
 
 Yolov3 Network Architecture
 
@@ -113,7 +113,7 @@ Yolov3 Network Architecture
 
 YOLOv3 uses darknet - 53 build to add a feature to the image. As the name suggests it has 53 layers of communication. We know that the number of layers indicates how deep the art of construction is. YOLOv3 is a deeper builder than yolov2, as it only goes to 19 people. There are 3x3 and 1x1 filters YOLOv3 formats that help extract features from the image, in all differentlayers.
 
-![](RackMultipart20210201-4-1mf5ufr_html_dde0ca8f64e159d7.png)
+![](darknet53.png)
 
 Darknet-53 architecture
 
@@ -123,7 +123,7 @@ We all know that ReLU (Rectified Linear Unit) is a great tool for activating neu
 
 Here is a basic code to implement leaky ReLU in the program and a chart to represent its functionality. On the left-hand side is ReLU function, and the other chart postulates leaky ReLU. The function, f(y) = ay is the slope line for negative values, and in practice, the value of &#39;a&#39; is nearly around 0.01 – 0.001.
 
-![](RackMultipart20210201-4-1mf5ufr_html_d0ff7d483c79e1d9.jpg)
+![](relu.jpg)
 
 ReLU and leaky ReLU Function Graph
 
