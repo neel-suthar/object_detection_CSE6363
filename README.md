@@ -2,9 +2,6 @@
 
 **Human Counting on a Frame using OpenCV**
 
-| **Neel Suthar** | **Manthankumar Patel** | **Jugal Patel** |
-| --- | --- | --- |
-| [neel.suthar@mavs.uta.edu](mailto:neel.suthar@mavs.uta.edu) | [manthankumarlax.patel@mavs.uta.edu](mailto:manthankumarlax.patel@mavs.uta.edu) | [jugal.patel@mavs.uta.edu](mailto:jugal.patel@mavs.uta.edu) |
 
 ## Abstract
 
@@ -18,20 +15,20 @@ Boundary boxes in object detection
 
 ### In computer vision, there are three types of tasks:
 
-1.
+
 ### ImageClassification:
 
 Image Classification concerns with type or class of the object in the given image. Output for this algorithm is a class label for inputphotographs
 
 ![](RackMultipart20210201-4-1mf5ufr_html_7330c77716d6cbb4.png)
 
-1. **Object**** localization:**
+**Object localization:**
 
 Object localization is the primary concept behind all image detection algorithms. _Object localization__ _refers to identifying the location of one or more objects in an image and drawing abounding box around their extent.
 
 Instance segmentation is one of those ways of localization. In instance segmentation, a bounding box is created around the object, and a label to which that object belongs is created at the top of the object. Whereas in image segmentation, the boundary is created around the object and it&#39;s also pixel-wise. In- stance segmentation creates square or rectangle boundaries.
 
-1.
+
 ### Object Detection:
 
 Object detection is a computer vision technique to identify various objects from an image or a video.
@@ -42,7 +39,7 @@ Object detection outputs class labels with proper boundary boxes for objects in 
 
 ### Various algorithms can be used for Object Detection using Deep Learning some of them are:
 
-1. **YOLO:**
+**YOLO:**
 
 YOLO uses convolutional neural networks for predict ion of class labels and object&#39;s location also.
 
@@ -72,14 +69,12 @@ YOLO looks at an image only once. And then applies only one neural network on th
 
 YOLO outputs a confidence score that tells us how certain it is that the predicted bounding box encloses the object. The task here is to categorize each object based on the class shown in the image or the video. The output for a given input image will be a confidence score that tells ushow certain it is that the predicted bounding box encloses the object.
 
-1.
 ### SSD:
 
 SSD algorithms (Single Shot MultiBox Detector) have a good balance between their accuracy and speed. The SSD uses a small two-sided kernel on the feature map created by CNN and image. By doing so, it automatically predicts binding boxes and segmentation opportunities.
 
 An SSD works better on larger objects than on smaller ones. We can say that its performance is similar to the Faster-RCNN of the big objects.
 
-1.
 ### FasterR-CNN:
 
 Faster R-CNN consists of Region Proposal Network (RPN) and Fast-RCNN. Anchor boxes are introduced in faster-RCNN. There are three types of anchor box- es, 128x128, 256x256, and 512x512. Additionally, it has three aspect ratios. (1:1, 2:1, 1:2). This gives a to- tal of 9 boxes to predict the probability. This is the output of RPN, which is given to Fast-RCNN. Here, the spatial pooling technique is applied along with re- gression.
