@@ -1,3 +1,11 @@
+# Get started
+- Download all the .ipynb files.
+- Create environment using anaconda.
+- Install all the required packages using conda.
+- First run model.ipynb to get the model.h5 file.
+- Now run helper_funcs.ipynb to load all necessary funmctions.
+- Then run detect_on_image.ipynb or detect_on_webcam.ipynb to start detecting.
+
 # CSE 6363-003 Machine Learning Term Project
 
 **Human Counting on a Frame using OpenCV**
