@@ -1,4 +1,4 @@
-# Get started
+# Getting started
 - Download all the .ipynb files.
 - Create environment using anaconda.
 - Install all the required packages using conda.
